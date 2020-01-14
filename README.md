@@ -2,7 +2,7 @@
 
 ## ETL e browser de dados para visualização de tabela com pensionistas do executivo federal
 
-A Fiquem Sabendo, Agência de dados públicos independente e especializada na Lei de Acesso à Informação (LAI), após três anos de cobrança, conseguiu que o TCU decidisse pela obrigatoriedade do governo federal em publicar os dados relativos a pensionistas do poder executivo federal, incluindo as pensões de filhas e esposas de militares.
+A Fiquem Sabendo, Agência de dados públicos independente e especializada na Lei de Acesso à Informação (LAI), após três anos de cobrança, conseguiu que o TCU decidisse pela obrigatoriedade do governo federal em publicar os dados relativos a pensionistas do poder executivo federal, incluindo as pensões de filhas de militares.
 
 <blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Quanto recebem filhas de militares e outros pensionistas do governo federal? A thread dos dados que ficaram escondidos por mais de 50 anos.</p>&mdash; Fiquem Sabendo (@_fiquemsabendo) <a href="https://twitter.com/_fiquemsabendo/status/1216730018858065920?ref_src=twsrc%5Etfw">January 13, 2020</a></blockquote>
 
