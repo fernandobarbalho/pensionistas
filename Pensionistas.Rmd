@@ -1,0 +1,52 @@
+---
+title: "Pensionistas no Brasil"
+output: 
+  flexdashboard::flex_dashboard:
+    social: menu
+    source_code: embed    
+    orientation: columns
+    vertical_layout: fill
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(dplyr)
+
+load("pensionistas.RData")
+```
+
+Column 
+-----------------------------------------------------------------------
+
+### Tabela de pensionistas
+
+```{r}
+library(DT)
+
+renderDataTable({
+  
+  DT::datatable(
+    
+  pensionistas%>%
+    select(-14),
+  filter = "top",
+  rownames = FALSE,
+  fillContainer = TRUE,
+  
+  extensions = 'Buttons', options = list(
+    dom = 'Bfrtip',
+    columnDefs = list(list(targets = c(-13), searchable = TRUE)),
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print')
+  )
+ ) %>% formatRound(13,digits = 2, mark=".", dec.mark= ",")%>% formatDate(c(6,11,12),  method =  "toLocaleDateString") 
+    
+
+  
+})
+
+
+```
+
+
